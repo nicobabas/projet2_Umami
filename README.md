@@ -65,3 +65,7 @@ If you've already cloned this repository, remove it and clone it again.
 ```
 
 You might have to close and reopen Visual Studio Code after the plugins install and setting changes.
+
+## Link to the Website
+
+https://umami.infraroth.com/
