@@ -1,0 +1,85 @@
+.ProductList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ProductList_accueil {
+  border: solid 1px black;
+  text-align: center;
+}
+
+.ProductList_h3 {
+  font-size: 2em;
+}
+
+.ProductList_p {
+  font-size: 1.5em;
+
+}
+
+/* accueil card */
+.accueilCard{
+  margin: 1rem;
+  width: 16rem;
+  height: 20rem;
+  background-color: rgba(229, 247, 229, 0.726);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10%;
+  box-shadow: rgb(0 0 0 / 26%) 5px 5px 10px;
+}
+
+.accueilGlobal{
+  display: flex;
+  flex-direction: column;
+  margin : 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .accueilGlobal{
+    flex-direction: row;
+  }
+}
+  
+
+.accueilTitre{
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 80%;
+  padding: 2.5px;
+  border-radius: 10px;
+}
+.imgAccueil{
+  width: 6.5rem;
+  height: 12.5rem;
+}
+.imgAccueil2{
+  width: 18rem;
+  height: 12.4rem;
+}
+.imgAccueil3{
+  margin-top:1rem;
+  width: 11rem;
+  height: 12rem;
+  border-radius: 10%;
+}
+.imgAccueil4{
+  width: 9rem;
+  height: 12.4rem;
+  border-radius: 10%;
+}
+
+
+
+
+.ligne{
+  color : white;
+  width: 14rem;
+  height: 2px;
+}
+

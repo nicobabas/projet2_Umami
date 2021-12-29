@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap');
+
+.App {
+  font-family: 'Dosis', sans-serif;
+  height: 100vh;
+  color: #343434;
+  background-color: #a3d6a4;
+}

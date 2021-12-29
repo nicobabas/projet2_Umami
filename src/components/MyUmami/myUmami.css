@@ -1,0 +1,32 @@
+.MyFavorites {
+  background-image: url('../../assets/testbackground2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 20rem ;
+  text-align: center;
+  padding: 2rem;
+}
+
+.MyFavorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.umamivide{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.card{
+  height: 3rem;
+  width: 3rem;
+  display:
+}
+
+.umamivide {
+  background-color: white;
+  max-width: 20rem;
+}

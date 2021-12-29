@@ -1,0 +1,184 @@
+.ProductCard {
+  background-size: cover;
+  background-position: center;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  width: 18rem;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.432) 5px 5px 10px;
+  text-align: center;
+}
+
+.ProductCard-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.ProductCard-container p {
+  margin: 1rem;
+}
+
+.ProductCard-edit {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.ProductCard-edit svg {
+  width: 30px;
+  height: 30px;
+}
+
+.isFavorite {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  color: red;
+  align-self: flex-start;
+}
+
+.notFavorite {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  color: #4caf50;
+  opacity: 0.5;
+  align-self: flex-start;
+}
+
+.notFavorite:hover{
+  color: red;
+}
+
+.delete {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  color: grey;
+  align-self: flex-start;
+}
+
+.delete :hover {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 60px;
+}
+
+.nustriscore {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.3rem;
+  background-color: black;
+  color: white;
+}
+
+.nustriscore.a {
+  background-color: green;
+}
+
+.nustriscore.b {
+  background-color: green;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.details a {
+  background-color: #4caf50;
+  padding: 10px;
+  margin-top: 0.8rem;
+}
+
+.details a:hover {
+  box-shadow: 5px 5px 10px  grey;
+  color: white;
+}
+
+.ProductCard a {
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.ProductCard-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ProductCard-imagebackground:hover{
+  box-shadow: 5px 5px 10px  grey;
+}
+
+.ProductCard-imagebackground {
+  width: 6rem;
+  height: 9rem;
+  border-radius: 10px;
+  background-position: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid grey 1px;
+}
+
+.productName {
+  text-transform: lowercase;
+  color: #343434;
+  font-style: normal;
+  min-height: 3rem ;
+}
+
+.productName::first-letter {
+  text-transform: capitalize;
+}
+
+.nutriscore.a {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background-image: url('../../assets/nutriscorea.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nutriscore.b {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background-image: url('../../assets/nutriscoreb.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nutriscore.c {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background-image: url('../../assets/nutriscorec.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nutriscore.d {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background-image: url('../../assets/nutriscored.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nutriscore.e {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background-image: url('../../assets/nutriscoree.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}

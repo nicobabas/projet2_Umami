@@ -1,0 +1,60 @@
+.footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 0;
+  background-color: #a3d6a4;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.social_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  width: 50vw;
+  height: 50%;
+}
+
+.contactTeam {
+  margin-top: 1rem;
+  list-style: none;
+  line-height: 1;
+  font-size: 15px;
+}
+
+.contactTeam:hover {
+  list-style: none;
+  line-height: 1;
+  font-size: 20px;
+  transition-duration: 0.2s;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 700px) {
+  .social_list {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer {
+    background-size: cover;
+  }
+
+  .contactTeam {
+    padding: 0.5rem;
+  }
+}
+
+footer p {
+  color: rgb(69, 92, 39);
+  margin-bottom: 2rem;
+}

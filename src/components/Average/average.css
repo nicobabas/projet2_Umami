@@ -1,0 +1,66 @@
+.averageglobal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.averagediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+  height: 4rem;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.26) 5px 5px 10px;
+  border-radius: 10px;
+}
+
+.scorepar {
+  padding-right: 0.5rem;
+  font-style: normal;
+}
+
+.average.A {
+  background-image: url('../../assets/UmamiA.png');
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.average.B {
+  background-image: url('../../assets/UmamiB.png');
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.average.C {
+  background-image: url('../../assets/UmamiC.png');
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.average.D {
+  background-image: url('../../assets/UmamiD.png');
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.average.E {
+  background-image: url('../../assets/UmamiE.png');
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

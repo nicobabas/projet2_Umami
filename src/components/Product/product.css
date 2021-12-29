@@ -1,0 +1,455 @@
+.product {
+  background: #e2f0f3;
+}
+
+.productIngredient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+h3 {
+  font-style: italic;
+}
+
+.ingredients {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.imageList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.product #favorite {
+  align-self: center !important;
+}
+
+.product #favorite svg {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (min-width: 400px) {
+  .product {
+    height: auto;
+    padding-bottom: 5%;
+  }
+
+  .imageList {
+    margin-top: 3%;
+    padding-bottom: 0;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.valeursnutri {
+  text-align: center;
+}
+
+.titlelist {
+  list-style-type: none;
+  text-align: start;
+  border-bottom: grey solid 1px;
+  width: 100%;
+}
+
+.ullist {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  margin-top: 5%;
+  width: 40%;
+  align-items: center;
+}
+
+/* .image {
+  width: 40%;
+  border: solid black 0.5px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 10px;
+  padding: 2%;
+} */
+
+.labeldiv {
+  width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+  .image {
+    width: 20%;
+    margin-right: 10%;
+  }
+
+  .ullist {
+    margin-top: 0;
+    width: auto;
+  }
+}
+
+/* label div en mobile a regler */
+
+.ullabel {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 5%;
+  padding-inline-start: 0;
+}
+
+.label {
+  /*
+  border: solid black 0.5px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 10px;
+  width: 40%;
+  */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 1%;
+  background: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+  }
+
+  .image {
+    width: 20%;
+  }
+
+  .titlelist {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .titlelist {
+    font-size: 30px;
+  }
+
+  .label {
+    font-size: 30px;
+  }
+
+  .productIngredient {
+    padding-bottom: 0;
+  }
+}
+
+/* icone details */
+
+.saturatedFat.low {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/lowicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.saturatedFat.moderate {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/moderateicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.saturatedFat.high {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/highicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.salt.low {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/lowicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.salt.moderate {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/moderateicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.salt.high {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/highicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sugars.low {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/lowicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sugars.moderate {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/moderateicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sugars.high {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/highicon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nova.nova1 {
+  display: inline-block;
+  width: 50px;
+  height: 60px;
+  background-image: url('../../assets/nova1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nova.nova2 {
+  display: inline-block;
+  width: 50px;
+  height: 60px;
+  background-image: url('../../assets/nova2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nova.nova3 {
+  display: inline-block;
+  width: 50px;
+  height: 60px;
+  background-image: url('../../assets/nova3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nova.nova4 {
+  display: inline-block;
+  width: 35px;
+  height: 60px;
+  background-image: url('../../assets/nova4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nutriscore.a {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background-image: url('../../assets/nutriscorea.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nutriscore.b {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background-image: url('../../assets/nutriscoreb.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nutriscore.c {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background-image: url('../../assets/nutriscorec.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nutriscore.d {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background-image: url('../../assets/nutriscored.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nutriscore.e {
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  background-image: url('../../assets/nutriscoree.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1024px) {
+  .saturatedFat.low {
+    width: 40px;
+    height: 40px;
+  }
+
+  .saturatedFat.moderate {
+    width: 40px;
+    height: 40px;
+  }
+
+  .saturatedFat.high {
+    width: 40px;
+    height: 40px;
+  }
+
+  .salt.low {
+    width: 40px;
+    height: 40px;
+  }
+
+  .salt.moderate {
+    width: 40px;
+    height: 40px;
+  }
+
+  .salt.high {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sugars.low {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sugars.moderate {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sugars.high {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nova.nova1 {
+    width: 35px;
+    height: 60px;
+  }
+
+  .nova.nova2 {
+    width: 35px;
+    height: 60px;
+  }
+
+  .nova.nova3 {
+    width: 35px;
+    height: 60px;
+  }
+
+  .nova.nova4 {
+    width: 35px;
+    height: 60px;
+  }
+
+  .nutriscore.a {
+    width: 110px;
+    height: 60px;
+  }
+
+  .nutriscore.b {
+    width: 110px;
+    height: 60px;
+  }
+
+  .nutriscore.c {
+    width: 110px;
+    height: 60px;
+  }
+
+  .nutriscore.d {
+    width: 110px;
+    height: 60px;
+  }
+
+  .nutriscore.e {
+    width: 110px;
+    height: 60px;
+  }
+}
+
+.textlevel {
+  padding: 5%;
+  text-align: center;
+  width: 80%;
+  font-style: oblique;
+  color: grey;
+}
+
+.levelicon {
+  margin-left: 2px;
+  margin-right: 3px;
+  width: 5%;
+}
+
+.lilevel {
+  list-style: none;
+  text-align: start;
+}
+
+@media screen and (min-width: 400px) {
+  .textlevel {
+    font-size: large;
+    padding-top: 4%;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .textlevel {
+    font-size: large;
+    padding-top: 8%;
+    padding-bottom: 0;
+  }
+
+  .levelicon {
+    width: 20px;
+  }
+}
